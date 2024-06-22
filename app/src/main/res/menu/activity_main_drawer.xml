@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_processor"
+            android:title="Test podst. instrukcji" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:title="Test temperatury" />
+        <item
+            android:id="@+id/nav_io"
+            android:title="Test wejścia/wyjścia" />
+        <item
+            android:id="@+id/nav_ram_cache"
+            android:title="Test tablica/l. pierwsze" />
+        <item
+        android:id="@+id/nav_float"
+        android:title="Test zmiennoprzecinkowe" />
+        <item
+            android:id="@+id/xd"
+            android:title="Test RAM " />
+
+        <item
+            android:id="@+id/xd2"
+            android:title="Test AES" />
+    </group>
+</menu>

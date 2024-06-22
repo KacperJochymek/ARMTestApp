@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_device_info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test wejścia/wyjścia"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp" />
+
+    <TextView
+        android:id="@+id/text_device_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podłącz kabel do portu, aby zmienić status."
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:id="@+id/text_usb_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/text_device_info2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_usb_status"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/text_test_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_test"
+        android:layout_marginTop="323dp"
+        android:text="Wynik:"
+        android:textSize="16sp" />
+
+</RelativeLayout>
